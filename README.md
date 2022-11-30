@@ -8,6 +8,14 @@ Wbasics just makes coding in python easier. Wbasics shortens things that would t
 
 
 
+## Installation
+
+Install Wbasics with pip
+
+
+  pip install Wbasics
+
+    
 ## Usage/Examples
 
 opening an app:
@@ -54,6 +62,8 @@ Secure a script so that only a few users can use it:
 ```python
 import Wbasics as w
 
+alloweduserslist = ("me", "friend")
+
 w.securescript(allowedusers)
 ```
 Control a LG TV:
@@ -74,12 +84,3 @@ import Wbasics as w
 
 w.webcamswitch(camnumb, windowname)
 ```
-
-## Installation
-
-Install Wbasics with pip
-
-
-  pip install Wbasics
-
-    
